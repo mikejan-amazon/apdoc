@@ -1,0 +1,46 @@
+#nav_menu {
+	position: sticky; 
+	top: 25px; 
+
+	h1, a {
+		font-size: 14px;
+		margin: 0px;
+		padding: 0 0 0 5px;
+		text-align: left;
+		line-height: 2;
+		font-weight: normal;
+		color: #002f36;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	ul {
+		display: none;
+		list-style: none;
+		text-align: left;
+		margin-bottom: 0px;
+
+    	li {
+
+    	}
+	}
+	.first_submenu, .second_submenu {
+		li {
+			font-size: 12px;
+		}
+	}
+	.active {
+		color: #ff9900;
+		border-left: 3px solid #ff9900;
+	}
+	.active_parent {
+		.first_submenu {
+			display: block;
+		}	
+	}
+	.active_child {
+		display: block;
+	}
+
+
+}

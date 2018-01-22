@@ -1,0 +1,40 @@
+toc:
+  - title: Getting started
+    url: /getting_started/
+  - title: One-time payments
+    url: /one_time_payments/
+    subfolderitems:
+      - page: Overview
+        url: /one_time_payments/overview/
+      - page: Integration steps
+        url: /one_time_payments/integration_steps/
+        subsubfolderitems:
+          - page: 1.
+            url: /one_time_payments/integration_steps/1/
+      - page: Optional integration steps
+        url: /one_time_payments/optional_integration_steps/
+      - page: Going live
+        url: /one_time_payments/going_live/
+  - title: Automatic payments
+    url: /automatic_payments
+    subfolderitems:
+      - page: Overview
+        url: /automatic_payments/overview/
+      - page: Integration Steps
+        url: /automatic_payments/integration_steps/
+        subsubfolderitems:
+          - page: Subthing 1
+            url: /subthing1
+      - page: Optional integration steps
+        url: /automatic_payments/optional_integration_steps/
+      - page: Going live
+        url: /automatic_payments/going_live/
+  - title: Hosted checkout
+    url: /hosted_checkout
+    subfolderitems:
+      - page: Overview
+        url: /hosted_checkout/overview/
+      - page: Button generator integration
+        url: /hosted_checkout/button_generator_integration/
+      - page: Custom hosted integration
+        url: /hosted_checkout/custom_hosted_integration/

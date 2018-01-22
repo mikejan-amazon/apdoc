@@ -1,0 +1,26 @@
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+
+{% if site.data.navigation.toc[0] %}
+  {% for item in site.data.navigation.toc %}
+  	<div class="nav_menu_section {% if page.url contains item.url %}active_parent{% endif %}">
+    <h1><a class="{% if page.url == item.url %}active{% endif %}" href="{{item.url}}">{{ item.title }}</a></h1>
+      {% if item.subfolderitems[0] %}
+        <ul class="first_submenu">
+          {% for entry in item.subfolderitems %}
+              <li><a href="{{ entry.url }}" class="{% if page.url == entry.url %}active{% endif %}">{{ entry.page }}</a></li>
+                {% if entry.subsubfolderitems[0] %}
+                  <ul class="second_submenu {% if page.url contains entry.url %}active_child{% endif %}">
+                  {% for subentry in entry.subsubfolderitems %}
+                      <li><a href="{{ subentry.url }}" class="{% if page.url == subentry.url %}active{% endif %}">{{ subentry.page }}</a></li>
+                  {% endfor %}
+                  </ul>
+                {% endif %}
+          {% endfor %}
+        </ul>
+    	</div>
+    	{% else %}
+    	</div>
+      {% endif %}
+    {% endfor %}
+{% endif %}
