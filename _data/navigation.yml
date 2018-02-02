@@ -1,7 +1,7 @@
 toc:
-  - title: Getting started
+  - title: GETTING STARTED
     url: /getting_started/
-  - title: One-time payments
+  - title: ONE-TIME PAYMENTS
     url: /one_time_payments/
     subfolderitems:
       - page: Overview
@@ -15,7 +15,7 @@ toc:
         url: /one_time_payments/optional_integration_steps/
       - page: Going live
         url: /one_time_payments/going_live/
-  - title: Automatic payments
+  - title: AUTOMATIC PAYMENTS
     url: /automatic_payments
     subfolderitems:
       - page: Overview
@@ -29,7 +29,7 @@ toc:
         url: /automatic_payments/optional_integration_steps/
       - page: Going live
         url: /automatic_payments/going_live/
-  - title: Hosted checkout
+  - title: HOSTED CHECKOUT
     url: /hosted_checkout
     subfolderitems:
       - page: Overview
@@ -38,3 +38,14 @@ toc:
         url: /hosted_checkout/button_generator_integration/
       - page: Custom hosted integration
         url: /hosted_checkout/custom_hosted_integration/
+  - title: RESOURCE CENTER
+    url: /resource_center
+    subfolderitems:
+        - page: API SDKs
+          url: /api_sdks
+        - page: UX guidelines
+          url: /ux_guidelines
+        - page: Button gallery
+          url: /button_gallery
+        - page: Appendix
+          url: /appendix 

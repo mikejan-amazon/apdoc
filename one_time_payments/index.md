@@ -1,10 +1,10 @@
 ---
 layout: default
-title: This is two
+title: Amazon Pay
 ---
 
 
-# Hi there, I'm Michael Jan
+# Amazon Pay
 
 This is interesting
 

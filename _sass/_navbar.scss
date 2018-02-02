@@ -5,6 +5,7 @@
 	background: #fff;
 	border-bottom: 1px solid #ececed;
 	box-shadow: 0 1px 3px 0 rgba(41,71,98,0.1);
+
 	ul {
 		list-style: none;
     	font-weight: bold;
@@ -16,7 +17,11 @@
 	}
 	a {
 		font-size: 14px;
-		font-weight: normal;
+		font-weight: bold;
+		color: #002f36;
+	}
+	a:hover {
+		text-decoration: none;
 	}
 	#nav_logo {
 		float: left;

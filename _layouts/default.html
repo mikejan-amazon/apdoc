@@ -14,9 +14,8 @@
   	<body>
 		<nav id="nav_bar">
 			<div class="container">
-				<img id="nav_logo" src="/resources/img/logo.png">
+				<a href="/"><img id="nav_logo" src="/resources/img/logo.png"></a>
 				<ul id="nav_bar_menu">
-	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">Glossary</a></li>
 		        	<li><a href="/about">API Reference</a></li>
 	    		</ul>
@@ -25,13 +24,15 @@
 		<div class="container" id="main_panel">
 			<div class="row">
 				<div class="col-md-12 col-lg-3">
-					<nav id="nav_menu">
-						{% include navmenu.html %}
-					</nav>
+					<div class="nav_menu_container">
+						<nav id="nav_menu">
+							{% include navmenu.html %}
+						</nav>
+					</div>
 				</div>
-				<div class="col-md-12 col-lg-9 ">
+				<div class="col-md-12 col-lg-9  content">
+						{{ content }}
 					<a>Edit this page</a>
-					{{ content }}
 				</div>
 			</div>		
 		</div><!-- /.container -->

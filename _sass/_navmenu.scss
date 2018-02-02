@@ -1,6 +1,17 @@
+.nav_menu_container {
+	padding-right: 0px;
+	background: #FAFAFA;
+	border-right: 1px solid #ddd;
+	height: 100%;
+	padding-left: 1000px;
+	margin-left: -1000px;
+}
 #nav_menu {
 	position: sticky; 
 	top: 25px; 
+	background: #FAFAFA;
+	padding: 25px 0 25px 0;
+	margin-left: 0;
 
 	h1, a {
 		font-size: 14px;
